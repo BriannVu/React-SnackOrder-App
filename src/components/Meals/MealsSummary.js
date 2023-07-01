@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import classes from './MealsSummary.module.css'
 
 const MealsSummary = () =>{
@@ -9,6 +10,7 @@ const MealsSummary = () =>{
         <p>
         Every snack we offer is crafted using premium ingredients, prepared right when you need it, and of course, made by skilled snack artisans!
         </p>
+        <Link to='/admin' className={classes.a} >Admin Login</Link>
     </section>
 };
 

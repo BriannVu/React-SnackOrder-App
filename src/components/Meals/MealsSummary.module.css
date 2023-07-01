@@ -16,3 +16,19 @@
     font-size: 2rem;
     margin-top: 0;
   }
+
+  .a{
+    background-color: #3c445c;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .a:hover{
+    background-color: #666c7c;
+    transition: 0.3s;
+  }
